@@ -147,18 +147,21 @@ h1 {
     align-items: center;
     text-align: center;
 }
-.block4{
+
+.block4 {
     background-color: #f3f0e7;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
+
 .all-h2 {
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-variant: small-caps;
     line-height: 1.2;
 }
+
 .three-pictures {
     display: flex;
     justify-content: space-around;
@@ -177,11 +180,12 @@ h1 {
 .team-pictures>img {
     width: 100%;
 }
+
 .team-pictures p {
     font-size: 20px;
-  color: rgb(0, 0, 0);
-  line-height: 1.2;
-  text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
 }
 
 .team-pictures span {
@@ -190,7 +194,8 @@ h1 {
     line-height: 1.2;
     text-align: center;
 }
-.make-photobook{
+
+.make-photobook {
     font-size: 19.303px;
     color: white;
     text-transform: uppercase;
@@ -198,7 +203,7 @@ h1 {
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
-    background-color:crimson ;
+    background-color: crimson;
     width: 280px;
     height: 50px;
     padding: 0;
@@ -206,22 +211,29 @@ h1 {
     cursor: pointer;
     margin: 50px 0px;
 }
-.block5{
+
+.block5 {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
-.rounded-rectangle{
-    width:210px;
+
+.rounded-rectangle {
+    padding: 5px;
+    width: 210px;
     height: 310px;
-    border: 5px solid orange;
+    background-color: orange;
     border-radius: 10px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
-.rounded-rectangle>h3{
-   
+.midle-info-block {
+    background-color: white;
+    width: 100%;
+}
+
+.rounded-rectangle>h3 {
     font-size: 16px;
     color: rgb(0, 0, 0);
     font-variant: small-caps;

@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid lightgreen;
+}
+
+.general-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 75%;
+}
+
+.block1 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left-header, .right-header {
+    display: flex;
+    align-items: center;
+}
+
+.fa-bars, .fa-sign-out-alt {
+    font-size: 23px;
+}
+
+.logo {
+    padding: 0px 50px;
+}
+
+.telefon {
+    font-size: 16px;
+    color: rgb(33, 33, 33);
+    line-height: 1.2;
+    border-radius: 5px;
+    background-color: rgb(255, 210, 0);
+    padding: 4px 6px;
+    margin: 0px 50px;
+    box-sizing: border-box;
+}
+
+.block2 {
+    background-image: url(../PHOTOBOOK/img/Main-banner.png);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 540px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.all-p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+.make-your-photobook {
+    font-size: 19.303px;
+    color: rgb(33, 33, 33);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 210, 0, 0);
+    width: 280px;
+    height: 50px;
+    padding: 0;
+    margin-top: 70px;
+    outline: none;
+    cursor: pointer;
+}
+
+.block3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.step {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.step i {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    border: 5px solid rgb(255, 210, 0);
+    border-radius: 50%;
+    background-color: rgba(255, 210, 0, 0);
+    width: 103px;
+    height: 100px;
+    padding: 16px 0px;
+    box-sizing: border-box;
+}
+
+.dashed_line {
+    display: inline-block;
+    text-align: center;
+    border-width: 3px;
+    border-color: rgb(255, 210, 0);
+    border-style: dashed;
+    width: 10%;
+    height: 0;
+    margin-bottom: 35px;
+}
+
+.i-p-step {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+.block4{
+    background-color: #f3f0e7;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.all-h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    line-height: 1.2;
+}
+.three-pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.team-pictures {
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.team-pictures>img {
+    width: 100%;
+}
+.team-pictures p {
+    font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-pictures span {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
+.make-photobook{
+    font-size: 19.303px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:crimson ;
+    width: 280px;
+    height: 50px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 50px 0px;
+}
+.block5{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.rounded-rectangle{
+    width:210px;
+    height: 310px;
+    border: 5px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.rounded-rectangle>h3{
+   
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    line-height: 1.2;
+    text-align: left;
+}

@@ -69,6 +69,8 @@ header {
 
 h1 {
     font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: rgb(0, 0, 0);
     font-variant: small-caps;
     line-height: 1.2;
@@ -86,7 +88,7 @@ h1 {
 
 .make-your-photobook {
     font-size: 19.303px;
-    color: rgb(33, 33, 33);
+    color: darkslategrey;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
@@ -160,6 +162,8 @@ h1 {
     color: rgb(0, 0, 0);
     font-variant: small-caps;
     line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .three-pictures {
@@ -222,15 +226,18 @@ h1 {
     padding: 5px;
     width: 210px;
     height: 310px;
-    background-color: orange;
+    background-color: #ffd200;
     border-radius: 10px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: space-between;
 }
+
 .midle-info-block {
     background-color: white;
     width: 100%;
+    height: 205px;
 }
 
 .rounded-rectangle>h3 {
@@ -239,4 +246,98 @@ h1 {
     font-variant: small-caps;
     line-height: 1.2;
     text-align: left;
+}
+
+ol {
+    list-style: none;
+}
+
+ol li {
+    margin: 10px 10px;
+    position: relative;
+}
+
+.midle-info-block>ol>li::before {
+    content: "☑";
+    color: #fcd000;
+    font-size: 1.5rem;
+    position: absolute;
+    --size: 20px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+}
+
+.midle-info-block p {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.dollar-one {
+    margin: 65px 35px 0px 0px;
+}
+
+.dollar-two {
+    margin: 37px 35px 0px 0px;
+}
+
+.dollar-three {
+    margin: 0;
+}
+
+.block6 {
+    background-image: url(../PHOTOBOOK/img/banner2.png);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.left-testimonials {
+    width: 92%;
+}
+
+.wedding-photo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.wedding-photo p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.wedding-photo p span {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: initial;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.testimonials-p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.next-testimonial {}
+
+.next-testimonial>a {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-decoration: none;
 }

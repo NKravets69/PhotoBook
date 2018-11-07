@@ -10,8 +10,6 @@ body {
 
 .container {
     width: 80%;
-    padding: 10px 0px;
-    box-sizing: border-box;
     border: 1px solid lightgreen;
 }
 
@@ -26,6 +24,8 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    padding: 15px 0px;
+    box-sizing: border-box;
 }
 
 header {
@@ -41,11 +41,11 @@ header {
 }
 
 .fa-bars, .fa-sign-out-alt {
-    font-size: 23px;
+    font-size: 24px;
 }
 
 .logo {
-    padding: 0px 50px;
+    padding-left: 25px;
 }
 
 .telefon {
@@ -65,6 +65,8 @@ header {
     flex-flow: column wrap;
     align-items: center;
     height: 540px;
+    padding: 10px 0px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -87,7 +89,7 @@ h1 {
 }
 
 .make-your-photobook {
-    font-size: 19.303px;
+    font-size: 18px;
     color: darkslategrey;
     text-transform: uppercase;
     line-height: 1.2;
@@ -98,8 +100,9 @@ h1 {
     width: 280px;
     height: 50px;
     padding: 0;
-    margin-top: 70px;
+    margin-top: 50px;
     outline: none;
+    letter-spacing: 1px;
     cursor: pointer;
 }
 
@@ -107,6 +110,8 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 20px 0px 40px 0px;
+    box-sizing: border-box;
 }
 
 .step {
@@ -164,6 +169,7 @@ h1 {
     line-height: 1.2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
 
 .three-pictures {
@@ -172,6 +178,7 @@ h1 {
     flex-flow: row wrap;
     text-align: center;
     width: 100%;
+    align-items: center;
 }
 
 .team-pictures {
@@ -200,12 +207,12 @@ h1 {
 }
 
 .make-photobook {
-    font-size: 19.303px;
+    font-size: 19px;
     color: white;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
     background-color: crimson;
     width: 280px;
@@ -214,12 +221,15 @@ h1 {
     outline: none;
     cursor: pointer;
     margin: 50px 0px;
+    letter-spacing: 1px;
 }
 
 .block5 {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    padding: 0px 0px 70px 0px;
+    box-sizing: border-box;
 }
 
 .rounded-rectangle {
@@ -238,10 +248,13 @@ h1 {
     background-color: white;
     width: 100%;
     height: 205px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 
-.rounded-rectangle>h3 {
-    font-size: 16px;
+.rounded-rectangle>.h3-all {
+    font-size: 17px;
     color: rgb(0, 0, 0);
     font-variant: small-caps;
     line-height: 1.2;
@@ -250,17 +263,18 @@ h1 {
 
 ol {
     list-style: none;
+    text-align: left;
 }
 
 ol li {
-    margin: 10px 10px;
     position: relative;
+    padding: 5px 0px 0px 0px;
+    box-sizing: border-box;
 }
 
 .midle-info-block>ol>li::before {
     content: "☑";
     color: #fcd000;
-    font-size: 1.5rem;
     position: absolute;
     --size: 20px;
     left: calc(-1 * var(--size) - 10px);
@@ -273,17 +287,6 @@ ol li {
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
-}
-
-.dollar-one {
-    margin: 65px 35px 0px 0px;
-}
-
-.dollar-two {
-    margin: 37px 35px 0px 0px;
-}
-
-.dollar-three {
     margin: 0;
 }
 
@@ -292,10 +295,16 @@ ol li {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    padding: 0px 0px 60px 0px;
+    box-sizing: border-box;
+}
+
+.testimonials {
+    width: 100%;
 }
 
 .left-testimonials {
-    width: 92%;
+    width: 60%;
 }
 
 .wedding-photo {
@@ -332,7 +341,11 @@ ol li {
     text-align: left;
 }
 
-.next-testimonial {}
+.next-testimonial {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
 
 .next-testimonial>a {
     font-size: 16px;
@@ -341,3 +354,436 @@ ol li {
     line-height: 1.2;
     text-decoration: none;
 }
+
+.button-make-y-b {
+    display: flex;
+    justify-content: center;
+}
+
+.block7 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 60px 0px 30px 0px;
+    box-sizing: border-box;
+}
+
+.three-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.h3-terms {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-variant: small-caps;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #ffd200;
+    width: 235px;
+    height: 50px;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin: 0px 0px 5px 0px;
+}
+
+.terms-payment-shipping {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.p-temps-payment {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 235px;
+    height: 180px;
+    background-color: #f7f0e6;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.p-temps-payment p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    margin: 8px 0px;
+}
+
+.p-temps-payment ul {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.p-temps-payment span {
+    font-size: 16px;
+    color: #e11a27;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 1px;
+    width: 80%;
+    font-weight: bold;
+}
+
+.block8 {
+    background-color: #ffd200;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 40px 0px 25px 0px;
+    box-sizing: border-box;
+}
+
+.about-us {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin: 5px 0px;
+}
+
+.footer-l-r {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 56%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.footer-right {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.line-gray {
+    width: 130px;
+    height: 2px;
+    display: block;
+    background-color: rgb(184, 181, 181);
+    margin-bottom: 15px;
+}
+
+.socials-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socials-footer li {
+    display: inline-block;
+}
+
+.socials-footer a {
+    text-decoration: none;
+    width: 24px;
+    height: 24px;
+    font-size: 22px;
+    color: black;
+}
+
+.img-designed {
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .block1 {
+        padding-top: 15px;
+    }
+    .telefon {
+        margin: 8px 18px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .all-p {
+        font-size: 15px;
+    }
+    .all-h2 {
+        font-size: 38px;
+    }
+    .make-your-photobook {
+        font-size: 16px;
+        width: 235px;
+    }
+    .step i {
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+        width: 70px;
+        height: 70px;
+    }
+    .i-p-step {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        margin: 8px 0px;
+    }
+    .wedding-photo {
+        justify-content: center;
+    }
+    .dashed_line {
+        width: 16px;
+    }
+    .three-pictures {
+        flex-flow: column wrap;
+    }
+    .team-pictures {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .make-photobook {
+        font-size: 16px;
+        width: 235px;
+    }
+    .team-pictures>img {
+        width: 65%;
+    }
+    .team-pictures p {
+        font-size: 18px;
+    }
+    .rounded-rectangle {
+        margin-top: 5px;
+    }
+    .left-testimonials {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .next-testimonial {
+        align-items: center;
+    }
+    .block7 {
+        padding: 45px 0px 17px 0px;
+    }
+    .terms-payment-shipping {
+        margin-top: 10px;
+    }
+    .block8 {
+        text-align: center;
+    }
+    .footer-left {
+        width: 100%;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .footer-l-r {
+        justify-content: center;
+    }
+    .footer-right {
+        align-items: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .telefon {
+        margin: 10px 19px;
+    }
+    .block1 {
+        padding-top: 15px;
+    }
+    header {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .all-p {
+        font-size: 15px;
+    }
+    .all-h2 {
+        font-size: 38px;
+    }
+    .make-your-photobook {
+        font-size: 16px;
+        width: 235px;
+    }
+    .step i {
+        font-size: 23px;
+        width: 70px;
+        height: 70px;
+    }
+    .i-p-step {
+        margin: 8px 0px;
+    }
+    .dashed_line {
+        width: 16px;
+    }
+    .three-pictures {
+        flex-flow: column wrap;
+    }
+    .team-pictures {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .make-photobook {
+        font-size: 16px;
+        width: 235px;
+    }
+    .team-pictures>img {
+        width: 75%;
+    }
+    .team-pictures p {
+        font-size: 18px;
+    }
+    .rounded-rectangle {
+        margin-top: 5px;
+    }
+    .left-testimonials {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .next-testimonial {
+        align-items: center;
+    }
+    .block7 {
+        padding: 45px 0px 17px 0px;
+    }
+    .terms-payment-shipping {
+        margin-top: 10px;
+    }
+    .block8 {
+        text-align: center;
+    }
+    .footer-left {
+        width: 100%;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .footer-l-r {
+        justify-content: center;
+    }
+    .footer-right {
+        align-items: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .fa-bars, .fa-sign-out-alt {
+        font-size: 22px;
+    }
+    .logo>img {
+        width: 80%;
+    }
+    .left-header, .right-header {
+        width: 50%;
+    }
+    .telefon {
+        font-size: 12px;
+        padding: 2px 0px;
+        margin: 0px 35px;
+    }
+    .step i {
+        font-size: 27px;
+        width: 80px;
+        height: 80px;
+    }
+    .i-p-step {
+        margin: 8px 0px;
+    }
+    .team-pictures {
+        width: 30%;
+    }
+    .team-pictures p {
+        font-size: 18px;
+    }
+    .rounded-rectangle {
+        margin-top: 5px;
+    }
+    .left-testimonials {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .next-testimonial {
+        align-items: center;
+    }
+    .terms-payment-shipping {
+        margin-top: 10px;
+    }
+    .block8 {
+        text-align: center;
+    }
+    .footer-left {
+        width: 100%;
+        justify-content: center;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .footer-l-r {
+        justify-content: center;
+    }
+    .footer-right {
+        align-items: center;
+    }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+  
+    .team-pictures {
+        width: 26%;
+    }
+    .team-pictures p {
+        font-size: 17px;
+    }
+    .rounded-rectangle {
+        margin-top: 10px;
+    }
+    .left-testimonials {
+        width: 85%;
+    }
+    .terms-payment-shipping {
+        margin-top: 15px;
+    }
+    .line-gray{
+        margin-top: 15px;
+    }
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .rounded-rectangle {
+        margin-top: 10px;
+    }
+    .left-testimonials {
+        width: 85%;
+    }
+    .terms-payment-shipping {
+        margin-top: 15px;
+    }
+    .footer-left {
+        width: 70%;}
+    
+  }
